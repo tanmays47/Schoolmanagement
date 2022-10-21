@@ -5,12 +5,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="95345f54f33d454f9b60b8711338dfd7" Name="Diagram1">
-        <EntityTypeShape EntityType="SchoolManagement_DBModel.Course" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SchoolManagement_DBModel.Enrollment" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="SchoolManagement_DBModel.Student" Width="1.5" PointX="5.375" PointY="0.875" IsExpanded="true" />
-        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Course_CourseID" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Course" Width="1.5" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Enrollment" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Student" Width="1.5" PointX="4.5" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Course_CourseID" ManuallyRouted="false" >
+        </AssociationConnector>
         <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Student_StudentID" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="SchoolManagement_DBModel.Lecturer" Width="1.5" PointX="0.75" PointY="4.875" />
+        <EntityTypeShape EntityType="SchoolManagement_DBModel.Lecturer" Width="1.5" PointX="0.5" PointY="3.75" />
         <AssociationConnector Association="SchoolManagement_DBModel.FK_dbo_Enrollment_dbo_Lecturer_LecturerID" />
       </Diagram>
     </edmx:Diagrams>
